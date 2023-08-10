@@ -1,0 +1,24 @@
+{
+  "name": "symbiotic/linear-congruential-generator",
+  "description": "Linear congruential pseudo-random number generator in the range MIN - MAX",
+  "version": "1.0.0",
+  "type": "library",
+  "license": ["BSD-3-Clause"],
+  "keywords": ["linear congruential generator", "range linear congruential generator"],
+  "require": {
+    "php" : ">=8.0",
+    "ext-bcmath": "*"
+  },
+
+  "autoload": {
+    "psr-4": {
+      "Symbiotic\\LinearCongruentialGenerator\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Sergei Surkov",
+      "role": "Developer"
+    }
+  ]
+}
