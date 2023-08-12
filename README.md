@@ -30,7 +30,7 @@ use \Symbiotic\LinearCongruentialGenerator\LinearCongruentialGenerator;
  // 
  for ($i = 0; $i < 30; $i++) {
         echo $LCGenerator->current() . ' ';
-        $generator->next();
+        $LCGenerator->next();
  }
  // output: 25 18 11 4 27 20 13 6 29 22 15 8 1 24 17 10 3 26 19 12 5 28 21 14 7 30 23 16 9 2
 
